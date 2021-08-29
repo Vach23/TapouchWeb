@@ -6,5 +6,8 @@ app = Flask(__name__)
 def index():
 	return render_template('main.html')
 
+
+#test commitu
+
 if __name__ == '__main__':
 	app.run()
